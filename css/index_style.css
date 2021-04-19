@@ -1,0 +1,87 @@
+a.button
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(119, 0, 255);
+    min-width: 150px;
+    border-radius: 25px;
+    font-size: larger;
+    margin: 10 auto;
+}
+
+a:hover {
+    background-color: #4b00a0;
+  }
+
+.Instructions
+{
+    border: solid;
+    border-radius: 10px;
+    max-width: 800;
+    align-self: center;
+    align-content: center;
+    font-size: small;
+    margin: auto;
+    margin-top: 20;
+    border: white solid;
+}
+h1
+{
+    color: teal;
+}
+
+html 
+{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    user-select: none;
+}
+
+.Side
+{
+    padding-left: 20;
+    font-size: Large;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    padding-right: 20;
+}
+.logo
+{
+    padding-left: 20;
+    max-width: 50;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20;
+}
+.Footer
+{
+    margin: auto;
+    display: inline-block;
+}
+.A
+{
+    margin: auto;
+}
+.Logo
+{
+    max-height: 50;
+}
+.Whole
+{
+    height: calc(100vh - 100px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.Center
+{
+    display: table-cell; 
+    vertical-align: middle;
+}

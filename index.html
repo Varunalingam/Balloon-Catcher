@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index_style.css">
+        <title>Balloons Catcher</title>
+    </head>
+    <body>
+        <div class = "Whole">
+            <div class="A">
+            <audio src="Audio/menu.mp3" loop = "true" autoplay = "true" allow="autoplay" id = "Bg">
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+            </audio>
+            <script>
+                (document.getElementById("Bg")).play();
+            </script>
+            <h1>Balloons Catcher<hr></h1>
+            
+            <a href="main.html" class="button" id = "a">Start Game</a>
+            <br>
+            <a href="credits.html" class="button" id = "b">Credits</a>
+            <audio src="Audio/tick.mp3" id = "click">
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+            </audio>
+            <script>
+                ((document).getElementById("a")).addEventListener("mouseover",function(e){(document.getElementById("click")).play();});
+                ((document).getElementById("b")).addEventListener("mouseover",function(e){(document.getElementById("click")).play();});
+            </script>
+            <div id = "Hs">
+
+            </div>
+            <script>
+                ((document).getElementById("Hs")).innerHTML = "Highscore : " + (parseInt(localStorage.getItem("highscore"))||0);
+            </script>
+            <div class = "Instructions">
+                <div style="font-size: x-large;padding-top: 20;">
+                Instructions<br>
+                </div>
+                <div style="text-align: left; padding-left: 20; padding-right: 20; padding-bottom: 20;">
+                A poor Balloon Seller has NO money to buy Air Cylinders for his Balloon Shop! He got a billionare offer to sell Balloons for a Birthday Party!! Help him by collecting Air Packets on the Screen in return for Half of his profits!!
+                <br><br>
+                Click on the Air Packets to destroy the Air Packets<br>
+                Smaller the Air Packet Higher the point<br>
+                When 75% of Screen is filled you have 10 seconds to Clear the Screen<br>
+                When the Timer Runs out - <div class = "Footer" style="color: red;">GAME OVER</div><br><br>
+
+                Power Ups<br><br>
+
+                <div class="Footer">
+                    <div class = "logo">
+                        <img src="Images/felix.png" style="max-width: 30;">
+                    </div>
+                    <div class="Side" style="font-size: small;">
+                        Use "Felix Felices" to pause the screen for 5 seconds and you can clear the screen!
+                        Remember you get only 2 of them!
+                    </div>
+                </div><br><br>
+
+                <div class="Footer">
+                    <div class = "logo">
+                        <img src="Images/g0.png" style="max-width: 30;">
+                    </div>
+                    <div class="Side" style="font-size: small;">
+                        Use "Infinity Gauntlet" to destroy Half of the Air Packet Population in one Snap!
+                        But you get them Only at difficult times Use Wisely!
+                    </div>
+                </div><br><br>
+
+                <div class="Footer">
+                    <div class = "logo">
+                        <img src="Images/Rock  icon.png" style="max-width: 30;">
+                    </div>
+                    <div class="Side" style="font-size: small;">
+                        Rock Air Packets are made with Platinum Core!! They are Harder to Break!
+                        But you get the costliest Noble Gas inside it! You get 10 times the Score! and Tell you the Number of Clicks Required!
+                    </div>
+                </div><br><br>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="Footer">
+            <div style="font-size: x-small;text-align: left;display: table-cell;vertical-align: middle; min-width: 100;">
+            </div>
+            <div class = "Center" style="width: 100vw;">
+                <div class="Footer">
+                    <div class = "logo">
+                        <img src="Images/studioslogo.png" class="Logo">
+                    </div>
+                    <div class="Side">
+                        <div style="font-size: small;">A Product of</div>
+                        VSSVe Studios
+                    </div>
+                    <div class = "logo">
+                        <img src="Images/spiderLogo.png" class="Logo">
+                    </div>
+                    <div class="Side">
+                        <div style="font-size: small;">Made for</div>
+                        Spider R&D
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: x-small;text-align: right;display: table-cell;vertical-align: middle; min-width: 100;">
+                version 1.0.0 <br>
+                HTML5  &nbsp; CSS3 &nbsp; JS
+            </div>
+        </div>
+    </body>
+</html>

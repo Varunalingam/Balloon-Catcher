@@ -1,0 +1,49 @@
+
+html 
+{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    user-select: none;
+}
+.Whole
+{
+    height: calc(100vh - 100px);
+    width: 99vw;
+    margin: 0 auto;
+    position: relative;
+    cursor:url("pointer.png"), auto;
+}
+.Side
+{
+    padding-left: 20;
+    font-size: Large;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    padding-right: 20;
+}
+.logo
+{
+    padding-left: 20;
+    max-width: 50;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20;
+}
+.Footer
+{
+    margin: auto;
+    display: inline-block;
+}
+.Logo
+{
+    max-height: 50;
+}
+.Center
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
